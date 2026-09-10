@@ -1,0 +1,85 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{black}
+\nopagenumbers{}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage[scale=0.915]{geometry}
+\usepackage{import}
+\usepackage{multicol}
+\usepackage{import}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\name{Asadullah}{}
+\newcommand*{\customcventry}[7][.13em]{
+\begin{tabular}{@{}l}
+{\bfseries #4} \
+{\itshape #3}
+\end{tabular}
+\hfill
+\begin{tabular}{l@{}}
+{\bfseries #5} \
+{\itshape #2}
+\end{tabular}
+\ifx&#7&%
+\else{\
+\begin{minipage}{\maincolumnwidth}%
+\small#7%
+\end{minipage}}\fi%
+\par\addvspace{#1}}
+\begin{document}
+\makecvtitle
+\vspace*{-16mm}
+\begin{center}\textbf{Data Engineer and Data Analyst}\end{center}
+\begin{center}
+\begin{tabular}{c c c}
+\faLinkedin\enspace \href{https://www.linkedin.com/in/asadullah-sheikh-4bb598209}{in/asadullah-sheikh-4bb598209} & \enspace \faEnvelope\  asadullahsheikh9@gmail.com \enspace & \faMobile\enspace +92 3244641001
+\end{tabular}
+
+\end{center}
+
+\section{Profile}
+{Experienced Data Engineer with expertise in PySpark, SQL, Databricks, and Azure Data Engineering, specializing in building and optimizing scalable data pipelines. Skilled in ingesting diverse data sources into Datalake platforms, performing data cleaning, transformation, and summarization to meet business requirements. Proficient in designing and implementing robust workflows, monitoring, and quality checks to ensure consistent and reliable data delivery while maintaining high standards of data quality.}
+
+\section{Professional Experience}
+\customcventry{07/2025 ‐ present}{{\color{blue}\href{https://www.confiz.com/}{(Confiz Limited)}}}{Senior Data Engineer,}{Lahore, Pakistan}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Worked as a data engineer for a UK based multinational telecommunication company which has won multiple awards in UK on its data platform.
+\item Expanded data sources by ingesting multiple new streams into our Datalake utilizing PySpark and Databricks. Employed Azure Synapse Data Warehouse for efficient data warehousing. Orchestrated workflows for these processes with Azure Data Factory, while also implementing validation checks and monitoring.
+\end{itemize}}}
+\customcventry{07/2022 ‐ 07/2025}{{\color{blue}\href{https://www.confiz.com/}{(Confiz Limited)}}}{Data Engineer,}{Lahore, Pakistan}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Worked as a data engineer for a UK based multinational telecommunication company which has won multiple awards in UK on its data platform.
+\item Expanded data sources by ingesting multiple new streams into our Datalake utilizing PySpark and Databricks. Employed Azure Synapse Data Warehouse for efficient data warehousing. Orchestrated workflows for these processes with Azure Data Factory, while also implementing validation checks and monitoring.
+\item Led the development and implementation of Logic Apps solutions across multiple projects within Datalake.
+\item Spearheaded performance optimization initiatives for the Azure Synapse Data Warehouse, significantly reducing data processing times and improving reporting efficiency to empower business stakeholders.
+\item Implemented various cost optimization initiatives on the platform, achieving a \textbf{20-30\%} reduction in overall platform costs.
+\item Took the initiative to design and deliver an AI Agent "support bot" that automated on-call support tasks, saving the team \textbf{30 hours} of manual work per month.
+\item Built and demoed a multilingual AI voice assistant using speech recognition and Generative AI technologies, winning the client's hackathon for innovation in customer service.
+\item Utilized a variety of tools and technologies including PySpark, SQL, Azure Data Factory, Azure Databricks, and Synapse Data Warehouse to address ad-hoc business requests and manage bugs/BAUs (Business-As-Usual tasks).
+\end{itemize}}}
+
+
+
+
+\section{Online Courses \& Certifications}
+{\begin{itemize}[label=\textbullet]
+      \item Databricks Certified Data Engineer Associate (July. 2025) - \underline{\color{blue}\href{https://credentials.databricks.com/2d600fd9-c439-4ddc-b7bf-4c44aab3b304#acc.MI7Kejn5}{Databricks}}
+      \item Data Warehouse Fundamentals (Sep. 2022) - \underline{\color{blue}\href{https://www.udemy.com/certificate/UC-3dbc2bb3-da5b-42af-bd6c-dde3e855f47f/}{Udemy}}
+      \item SQL (Advanced) Certificate (May. 2024) - \underline{\color{blue}\href{https://www.hackerrank.com/certificates/5a2d84dc7633}{Hackerrank}}
+      \item DP-203 - Data Engineering on Microsoft Azure 2023, (June. 2023) - \underline{\color{blue}\href{ude.my/UC-05cd4c8e-529e-4c0b-9bc8-45b66e0c7c5b}{Udemy}}
+  \end{itemize}} 
+
+\section{Education}
+\customcventry{2018-2022}{\color{blue}\href{https://www.nu.edu.pk/}{FAST NUCES}}{Bachelor of Computer Science}{Lahore, Pakistan}{}{}{Relevant Courses: Database Systems, Data Warehousing \& Data Science, Artificial Intelligence, Programming Fundamentals \& OOP, Data Structures \& Algorithms.}
+
+\section{Skills}
+{\begin{itemize}[label=\textbullet]
+\item {\textbf{Extract, Transform \& Load(ETL):} Databricks, Azure Data Factory, Azure Logic Apps, Apache Nifi}
+\item {\textbf{Data Warehousing:} Azure Synapse Data Warehouse}
+\item {\textbf{Technical Skills:} Python, Spark, SQL, Optimization, Quality Assurance, Data Modeling, Data Warehousing, ETL, Generative AI}
+\item {\textbf{Soft Skills:} Ownership, Agile, Communication, Planning, Presentation, Problem-Solving, Teamwork, Adaptability, Analytical Thinking}
+\end{itemize}}
+
+\end{document}
